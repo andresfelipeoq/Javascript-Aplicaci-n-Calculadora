@@ -2,7 +2,7 @@ Javascript-Aplicaci-n-Calculadora
 
 
 
-Para crear una calculadora simple en JavaScript es un buen proyecto para principiantes que desean aprender sobre la programación web. A continuación, te proporcionaré un ejemplo básico de cómo crear una calculadora web utilizando HTML, CSS y JavaScript:
+Crear una calculadora simple en JavaScript es un buen proyecto para principiantes que desean aprender sobre la programación web. A continuación, te proporcionaré un ejemplo básico de cómo crear una calculadora web utilizando HTML, CSS y JavaScript:
 
     HTML:
     <!DOCTYPE html>
@@ -76,6 +76,7 @@ button {
 
 JavaScript (Guárdalo en un archivo llamado script.js):
 
+
 let display = document.getElementById('display');
 let currentValue = '';
 let operator = '';
@@ -126,5 +127,10 @@ function setOperator(op) {
 document.addEventListener('DOMContentLoaded', function () {
     clearDisplay();
 });
+
+
+
+
+
 
 
